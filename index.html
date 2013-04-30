@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="javascript/weather_data_vo.js"></script>
+    <script src="javascript/weather_dao.js"></script>
+    <script src="javascript/result_container.js"></script>
+    <script src="javascript/main.js"></script>
+  </head>
+  <body>
+    <h3>OOW (Object Oriented Weather)</h3>
+    <form id="location_form">
+      <input type="text" name="zip_code">
+      <input type="submit" value="Get Weather Data By Zip">
+    </form>
+    <div id="results">
+      <div id="conditions_icon" style="float:left;"></div>
+      <div id="conditions" style="float:left;"></div>
+    </div>
+  </body>
+</html>
